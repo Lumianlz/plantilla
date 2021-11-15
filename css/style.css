@@ -156,9 +156,14 @@ justify-content: space-evenly;
 		
 	}
 	.plantilla{
-		width: 100vh;
+		display: block;
+		width: 100%;
 		min-height: 400px;
 		height: 50vh;
+		border-radius: 20px;
+	}
+	.plantilla:hover {
+		width: 100%;	
 	}
 	
 	
