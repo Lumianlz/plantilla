@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;	
+}
+:root{
+	scroll-behavior: smooth;
+}
+header{
+	height: 100vh;
+	background-image:linear-gradient(to top, rgba(23,234,237,0.5) 0%, rgba(51,8,103,0.5) 100%), url(../img/fondo.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:100%;
+	color: rgb(255, 255, 255);
+}
+
+.contenedor{
+	width:90%;
+	max-width: 1500px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+}
+.menu{
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.473);
+	border-radius: 10px;
+	border: solid black 1px;
+}
+.nav{
+	width: 50vh;
+	height: 100%;
+	background-image:  linear-gradient(to top, rgba(47, 240, 182, 1) 0%, rgba(51,8,103,1) 100%);
+	position: fixed;
+	right: 0;
+	top: 0;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	box-shadow: 0 0 6px black;
+	transition: transform .3s ease-in-out;
+	transform: translate(110%);
+}
+
+nav a{
+	color: white; 
+	text-decoration: none;
+}
+.head{
+	padding: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.art-img{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.plantilla{
+	display: block;
+	width: 30%;
+	height:300px ;
+	margin-top: 20px;
+	border-radius:20px ;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	cursor: pointer;
+	transition: .5s;
+}
+.plantilla:hover {
+	width:40%;
+	height: auto;
+	max-height: 350px;
+    
+}
+.show-pic{	
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translate(100%);
+	transition: .2s ease-in-out;
+	
+	background-color: rgb(0, 0, 0, .7);
+}
+.pic-selected{
+	width: 60%;
+	border-radius: 10px;
+	transition: transform .3s .2s;transform: scale(0);
+
+}
+.javapic{
+	transform: scale(1);
+}
+.show-nav{
+	transform: translate(0%);
+}
+.wsp{	
+	color: green;
+
+}
+.redes{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lk{
+	color: blue;
+}
+.gm{
+	color: red;
+}
+@media only screen and (max-width:600px)  {
+	.header{
+		background-size: cover;
+	}
+	.nav{
+		width: 100vh;
+		height: 100vh;
+	}
+	.menu{	
+		width: 10vh;
+		z-index: 1;
+		top: 0px;
+		right: 0px;
+		
+	}
+	.plantilla{
+		width: 100vh;
+		min-height: 400px;
+		height: 50vh;
+	}
+	
+	
+}
+
