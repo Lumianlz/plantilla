@@ -140,6 +140,22 @@ justify-content: space-evenly;
 .gm{
 	color: red;
 }
+@media only screen and (min-width:600px) {
+	.hov:hover {
+		font-size:x-large;
+		transition: .5s;
+		transform: scale(1);
+	}
+	.hov{
+		margin-top: 20px;
+	}
+	a:hover{
+		font-size: large;
+		transition: .3s;
+	}
+	
+	
+}
 @media only screen and (max-width:600px)  {
 	.header{
 		background-size: cover;
