@@ -1,3 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- intro -->
+    <header>
 
+    </header>
+    <!-- presentation -->
+    <section class="" >
+      <div class="presentation">
+        <img src="" alt="">
+        <p>Estoy estudiando programacion web.</p>
+      </div>
+        <div class="myskill">
+            <p></p>
+            <img src="" alt="">
+            <p></p>
+            <img src="" alt="">
+            <p></p>
+            <img src="" alt="">
+            <p></p>
+        </div>
+
+
+    </section>
+    <!-- Mis experiencias. -->
+    <section class="" >
+
+    </section>
+    <!-- vistaso -->
+    <section class="" >
+        <article></article>
+        <article></article>
+        <article></article>
+
+    </section>
+    <section></section>
+</body>
 </html>
